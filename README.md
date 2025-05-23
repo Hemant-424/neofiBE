@@ -18,7 +18,7 @@ This is the backend for the NeoFi collaborative event platform, built with FastA
 - WebSockets (for live editing)
 - JWT (python-jose)
 - DeepDiff (version comparison)
-- Docker + docker-compose
+
 
 ---
 
@@ -27,5 +27,5 @@ This is the backend for the NeoFi collaborative event platform, built with FastA
 ### 🔧 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-org/neofi.git
-cd neofi
+git clone [https://github.com/Hemant-424/neofiBE.git)]
+cd neofiBE
