@@ -1,0 +1,31 @@
+# 🚀 NeoFi Collaborative Event Backend (FastAPI + MongoDB)
+
+This is the backend for the NeoFi collaborative event platform, built with FastAPI and MongoDB. It supports:
+
+- JWT-based Authentication
+- Role-Based Access Control (RBAC)
+- Event CRUD with version tracking
+- Real-time Collaboration via WebSocket
+- Diff between event versions
+- Collaborator-based access control
+
+---
+
+## 📦 Tech Stack
+
+- FastAPI
+- MongoDB (Motor async client)
+- WebSockets (for live editing)
+- JWT (python-jose)
+- DeepDiff (version comparison)
+- Docker + docker-compose
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 1. Clone the repo
+
+```bash
+git clone https://github.com/your-org/neofi.git
+cd neofi
