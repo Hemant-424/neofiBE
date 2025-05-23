@@ -18,7 +18,6 @@ This is the backend for the NeoFi collaborative event platform, built with FastA
 - WebSockets (for live editing)
 - JWT (python-jose)
 - DeepDiff (version comparison)
-- Docker + docker-compose
 
 ---
 
