@@ -27,5 +27,15 @@ This is the backend for the NeoFi collaborative event platform, built with FastA
 ### 🔧 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-org/neofi.git
-cd neofi
+git clone https://github.com/Hemant-424/neofiBE.git)
+cd neofiBE
+
+## create virtual env
+python -m venv neofi
+neofi/Scripts/activate
+
+## install the requirements.txt
+pip install -r requirements.txt
+
+## run the application
+- uvicorn app.main:app --reload --port 8000
