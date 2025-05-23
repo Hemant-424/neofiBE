@@ -34,6 +34,10 @@ cd neofiBE
 python -m venv neofi
 neofi/Scripts/activate
 
+#create a env variable inside app, paste the mongourl 
+MONGO_URL =
+MONGO_DB_NAME = neofi
+
 ## install the requirements.txt
 pip install -r requirements.txt
 
